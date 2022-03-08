@@ -85,3 +85,16 @@
     transform: translateX(-350px);
     transition: all 500ms ease-in;
 }
+.post__btns{
+    display: flex;
+}
+.navbar{
+    height: 50px;
+    width: 100px;
+    display: flex;
+    align-items:center;
+    padding: 0 15px;
+}
+.navbar__links{
+    margin-left: auto;
+}

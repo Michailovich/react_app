@@ -20,3 +20,14 @@ export const usePosts = (posts,sort,query)=>{
       
     return sortedAndSearchedPosts;
 }
+
+export const usePagesArray = (totalPage)=>{
+  const results = useMemo(()=>{
+    let arrayd=[];
+    for (let i = 0; i < totalPage; i++) {
+      arrayd.push(i+1);
+    }
+  },[]);
+
+  return results;
+}
