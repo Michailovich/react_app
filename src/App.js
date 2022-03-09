@@ -4,6 +4,7 @@ import Navbar from "./component/UI/navbar/Navbar";
 import About from "./pages/About";
 import PostIdPage from "./pages/PostIdPage";
 import Posts from "./pages/Posts";
+import { routes } from "./router";
 
 import './style/App.css';
 
